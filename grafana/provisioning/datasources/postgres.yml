@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: Fraud Postgres
+    uid: fraud-pg
+    type: postgres
+    access: proxy
+    url: postgres:5432
+    user: grafana_ro
+    secureJsonData:
+      password: grafana_ro
+    jsonData:
+      database: frauddb
+      sslmode: disable
+      postgresVersion: 1600
+    isDefault: true

@@ -1,0 +1,38 @@
+{
+  "computed_at": "2026-11-02T09:35:20.478471+00:00",
+  "rows_evaluated": 6092,
+  "thresholds": {
+    "BURST_COUNT": 3,
+    "TRAVEL_MIN_KM": 100,
+    "TRAVEL_MAX_SPEED": 900,
+    "AMOUNT_MULTIPLIER": 5,
+    "MIN_PRIOR_TXNS": 3
+  },
+  "evidence": {
+    "BURST_COUNT": {
+      "current": 3,
+      "chosen": 3,
+      "f1_by_candidate": {
+        "3": 0.739,
+        "4": 0.704,
+        "5": 0.58,
+        "6": 0.416,
+        "7": 0.259,
+        "8": 0.139
+      }
+    },
+    "AMOUNT_MULTIPLIER": {
+      "current": 5,
+      "chosen": 5,
+      "f1_by_candidate": {
+        "3": 0.68,
+        "4": 0.837,
+        "5": 0.873,
+        "6": 0.879,
+        "7": 0.829,
+        "8": 0.8,
+        "10": 0.671
+      }
+    }
+  }
+}
